@@ -4,14 +4,16 @@ from django.shortcuts import render
 # Import HttpResponse to send text-based responses
 from django.http import HttpResponse
 
+
 # Define the home view function
 def home(request):
-    # Send a simple HTML response
-    return HttpResponse('<h1>Hello</h1>')
-
+    return render(request, 'home.html')
+    
 def about(request):
     # return HttpResponse('<h1>About the PlantCollector</h1>')
     return render(request, 'about.html')
+
+
 
 class Plant:
     def __init__(self, name, ailment, description, origin, image):
@@ -23,7 +25,7 @@ class Plant:
 
 
 
-# Create a list of Plant instances
+# # Create a list of Plant instances
 plants = [
     Plant('Manzanilla', 'Menstraul Ache', 'Chamomile tea is often used for calming menstraul pain.', 'Mexico', 'chamomile.png'),
     Plant('Eucalipto', 'Cough', 'Eucalyptus leaves are boiled for clearing the lungs and soothing coughs.', 'South America', 'eucalyptus.png'),
