@@ -36,3 +36,6 @@ plants = [
 def plant_index(request):
     # Render the plants/index.html template with the plants data
     return render(request, 'plants/index.html', {'plants': plants})
+
+# TODO: left at Django Models
+# TODO: cBook-Pro django-crud-app-plant-remedies % psql plantcollector psql plantcollector=# \dt Did not find any relations.
