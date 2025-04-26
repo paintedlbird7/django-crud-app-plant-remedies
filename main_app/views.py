@@ -25,8 +25,8 @@ class Plant:
 
 # Create a list of Plant instances
 plants = [
-    Plant('Manzanilla', 'Stomach Ache', 'Chamomile tea is often used for digestion and calming the stomach.', 'Mexico', 'chamomile.png'),
-    # Plant('Eucalipto', 'Cough', 'Eucalyptus leaves are boiled for clearing the lungs and soothing coughs.', 'South America'),
+    Plant('Manzanilla', 'Menstraul Ache', 'Chamomile tea is often used for calming menstraul pain.', 'Mexico', 'chamomile.png'),
+    Plant('Eucalipto', 'Cough', 'Eucalyptus leaves are boiled for clearing the lungs and soothing coughs.', 'South America', 'eucalyptus.png'),
     Plant('Hierba Buena', 'Nausea', 'Mint is steeped into tea to relieve nausea and promote digestion.', 'Mexico', 'mint.png'),
     # Plant('Ruda', 'Menstrual Pain', 'Rue is used traditionally to ease menstrual discomfort.', 'Latin America')
 ]
