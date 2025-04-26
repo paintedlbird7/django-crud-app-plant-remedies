@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{% static 'css/base.css' %}" />
     <img src=
     "{% static 'images/plant.png' %}" 
-    alt="The Plant Collector Logo" />
+    alt="The Plant Collector Logo" width=100/>
    
     {% comment %} <link
   rel="shortcut icon"
@@ -29,11 +29,13 @@
     <header>
       <div class="header-logo-container">
          <a href="/">
-          <img src="" alt="The Plant Collector Logo" />
+          <img src="{% static 'images/seedling.png' %}" 
+          alt="The Plant Collector Logo" width="25" />
         </a>
       </div>
       <nav>
         <ul>
+          <li><a href="/plants">All Plants</a></li>
           <li><a href="/about">About</a></li>
         </ul>
       </nav>
